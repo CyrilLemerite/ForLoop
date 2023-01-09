@@ -36,7 +36,7 @@ do
 
     Console.Beep();
     Console.WriteLine();
-    Console.Write("Do you want to continue Yes(Y) or No(N): ");
+    Console.Write("Do you want to continue Yes(Y) or No(N)? ");
     ans = Console.ReadLine();
 
 } while (ans.ToLower() == "yes" || ans.ToLower() == "y");
